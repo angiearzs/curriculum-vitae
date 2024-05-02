@@ -1,0 +1,143 @@
+@media(max-width: 1360px) {
+  .resume__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .resume__aside {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    gap: 100px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    width: 100%;
+    padding: 40px 40px 80px;
+  }
+
+  .resume__profile,
+  .resume__contacts,
+  .resume__education,
+  .resume__languages {
+    display: inline-block;
+    max-width: 375px;
+  }
+
+  .resume__image {
+    margin-bottom: 40px;
+  }
+
+  .resume__title {
+    margin-bottom: 20px;
+  }
+
+  .resume__text {
+    padding-bottom: 20px;
+  }
+
+  .languages__item {
+    gap: 10px;
+  }
+
+  .resume__main-info {
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .experience__desc {
+    width: 400px;
+    max-width: unset;
+  }
+}
+
+@media(max-width: 990px) {
+  .resume__aside {
+    -webkit-box-pack: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+  }
+
+  .experience__item {
+    gap: 20px;
+  }
+}
+
+@media(max-width: 903px) {
+  .experience__desc {
+    max-width: 100%;
+  }
+
+  .experience__text {
+    max-width: 100%;
+  }
+
+  .skills__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .hobby__item {
+    padding-left: 62px;
+  }
+}
+
+@media(max-width: 600px) {
+  .main-title {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .about__desc,
+  .experience__desc,
+  .experience__text,
+  .hobby__text {
+    font-size: 16px;
+  }
+
+  .resume__aside {
+    gap: 60px;
+    padding: 40px 20px 50px;
+  }
+
+  .contacts__link svg,
+  .contacts__location svg {
+    margin-right: 5px;
+  }
+
+  .languages__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .hobby__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hobby__item {
+    padding-left: 100px;
+  }
+}
